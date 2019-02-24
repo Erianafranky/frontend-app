@@ -1,0 +1,23 @@
+<div class="col-sm-8 col-sm-offset-2">
+
+	<h3>Send Money</h3>
+
+
+<form (ngSubmit) =  "onSubmit(transferForm)" #transferForm="ngForm">
+
+
+	<div class="form-group">
+		<label> Email Address</label>
+
+		<input ngModel name="email" required type="email" class="form-control">
+	</div>
+
+	<div class="form-group">
+		<label> Amount</label>
+
+		<input ngModel name="amount" required type="amount" class="form-control">
+	</div>
+
+<button type="submit" [disabled]="!transferForm.valid" class="btn-block btn-primary">SEND MONEY</button>
+</form>
+</div>
