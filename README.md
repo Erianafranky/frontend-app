@@ -19,4 +19,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 A simple Money Transfer app That enables users to register and login inorder to tstart sending or topping up account.
 
 # Hosting
-I have hosted the app on firebase you can find it here `https://fir-project-5e03d.firebaseapp.com/`
+I have hosted the app on firebase you can find it [HERE](https://fir-project-5e03d.firebaseapp.com/)
